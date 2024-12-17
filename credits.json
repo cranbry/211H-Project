@@ -1,0 +1,92 @@
+{
+    "credits": [
+        {
+            "speaker": "",
+            "text": "CREATED BY"
+        },
+        {
+            "speaker": "",
+            "text": "Mouad Oulouali"
+        },
+        {
+            "type": "separator"
+        },
+        {
+            "type": "text",
+            "content": "SPECIAL THANKS TO",
+            "style": "header"
+        },
+        {
+            "type": "text",
+            "content": "Professor Azhar",
+            "style": "name"
+        },
+        {
+            "type": "text",
+            "content": "My friend Ian",
+            "style": "name"
+        },
+        {
+            "type": "separator"
+        },
+        {
+            "type": "text",
+            "content": "my classmates Tanvir, Darlyn and everyone in 211H",
+            "style": "name"
+        },
+        {
+            "type": "text",
+            "content": "Youtubers Abdullah, Sciber",
+            "style": "name"
+        },
+        {
+            "type": "text",
+            "content": "Qt documentation team, and Open ai",
+            "style": "name"
+        },
+        {
+            "type": "separator"
+        },
+        {
+            "type": "text",
+            "content": "Storyline",
+            "style": "header"
+        },
+        {
+            "type": "text",
+            "content": "Inspired by 'Nacirema' Anthropological story",
+            "style": "name"
+        },
+        {
+            "type": "separator"
+        },
+        {
+            "type": "text",
+            "content": "Backgrounds",
+            "style": "header"
+        },
+        {
+            "type": "text",
+            "content": "Mouad Oulouali, Ian Camacho",
+            "style": "name"
+        },
+        {
+            "type": "text",
+            "content": "Softwares",
+            "style": "header"
+        },
+        {
+            "type": "text",
+            "content": "Figma, Qt, Adobe Photoshop, CRAFTPIX",
+            "style": "name"
+        },
+        {
+            "type": "separator"
+        },
+        {
+            "type": "text",
+            "content": "THE END",
+            "style": "header"
+        }
+    ]
+}

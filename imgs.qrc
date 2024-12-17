@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>chap1-icon.png</file>
+        <file>chap2-icon.png</file>
+        <file>chap3-icon.png</file>
+        <file>chap4-icon.png</file>
+        <file>chap5-icon.png</file>
+        <file>forest.png</file>
+        <file>forest-background.png</file>
+        <file>character.png</file>
+        <file>checkmark.png</file>
+        <file>logo.png</file>
+        <file>sprite-sheet.png</file>
+        <file>maya-npc.png</file>
+        <file>background-chap.png</file>
+        <file>walk.xcf</file>
+        <file>maya-walk.png</file>
+        <file>plants.png</file>
+        <file>village-path.png</file>
+        <file>village.png</file>
+        <file>maya-walk-right.png</file>
+        <file>doctor.png</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>walking-sound.wav</file>
+    </qresource>
+    <qresource prefix="/story">
+        <file>maya-story.json</file>
+        <file>credits.json</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,24 @@
+# ninja log v6
+61	7938	7561123064333187	211-Projct_autogen/timestamp	37c0fe7326eb9521
+7941	8487	7561123072374570	211-Projct_autogen/EWIEGA46WW/qrc_imgs.cpp	e3cc61f9be0338da
+61	7938	7561123064333187	211-Projct_autogen/mocs_compilation.cpp	37c0fe7326eb9521
+8653	18620	7561123074315002	CMakeFiles/211-Projct.dir/player.cpp.obj	660a8b3421e1aae9
+61	7938	7561123064333187	C:/Users/d70/Desktop/211H-Projct/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/211-Projct_autogen/mocs_compilation.cpp	37c0fe7326eb9521
+61	7938	7561123064333187	C:/Users/d70/Desktop/211H-Projct/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/211-Projct_autogen/timestamp	37c0fe7326eb9521
+7941	8487	7561123072374570	C:/Users/d70/Desktop/211H-Projct/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/211-Projct_autogen/EWIEGA46WW/qrc_imgs.cpp	e3cc61f9be0338da
+8720	20562	7561123075375253	CMakeFiles/211-Projct.dir/chapters.cpp.obj	168adf6f728720b1
+8785	19366	7561123075625304	CMakeFiles/211-Projct.dir/dialoguebox.cpp.obj	464a94c532b427a1
+8500	19828	7561123072664644	CMakeFiles/211-Projct.dir/main.cpp.obj	51350ccb8352b809
+8905	19368	7561123076835579	CMakeFiles/211-Projct.dir/storymanager.cpp.obj	a61f3abdcc41bdf3
+8518	18715	7561123072964708	CMakeFiles/211-Projct.dir/mainwindow.cpp.obj	734d4c4e449a37fd
+8590	19529	7561123073704872	CMakeFiles/211-Projct.dir/quiz.cpp.obj	cd7c231413e75f68
+8488	23314	7561123072544613	CMakeFiles/211-Projct.dir/211-Projct_autogen/mocs_compilation.cpp.obj	72547713b913cc67
+8840	22791	7561123076565515	CMakeFiles/211-Projct.dir/storyscene.cpp.obj	500cfdd1b152b424
+19834	27995	7560988713346647	CMakeFiles/211-Projct.dir/herbspot.cpp.obj	1d14081e44d22ee2
+8964	18979	7561123077815895	CMakeFiles/211-Projct.dir/doctornpc.cpp.obj	15e93bbec64072cf
+18980	27802	7561123177478409	CMakeFiles/211-Projct.dir/211-Projct_autogen/EWIEGA46WW/qrc_imgs.cpp.obj	355bdda8fece040b
+27803	30704	7561123265678519	211-Projct.exe	e06d02f73903e9ac
+18715	19857	7561123174817801	CMakeFiles/211-Projct.dir/app.rc.obj	e5fdf8bf8a96d1d2
+34	119	7561125353403206	CMakeFiles/clean.additional	baedbe210acaa455
+120	152	7561125354266891	clean	577b940aee94fbd7
+18621	25303	7561123173897596	CMakeFiles/211-Projct.dir/creditscene.cpp.obj	17a94723c72dc446

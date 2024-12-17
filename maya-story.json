@@ -1,0 +1,357 @@
+{
+    "chapter1": {
+        "intro_sequence": [
+            {
+                "text": "The field trip started like any other day, with laughter and chatter filling the bus...",
+                "speaker": "",
+                "next": "1"
+            },
+            {
+                "id": "1",
+                "text": "But as we approached the forest reserve, an unsettling stillness crept over us. The trees seemed taller, the air heavier.",
+                "speaker": "",
+                "next": "2"
+            },
+            {
+                "id": "2",
+                "text": "Warning signs lined the trail: 'RESTRICTED AREA - Divoc Protection Zone'. The letters were faded, but the unease they carried was fresh.",
+                "speaker": "",
+                "next": "3"
+            },
+            {
+                "id": "3",
+                "text": "Through the thick foliage, I spotted a figure in a tattered mask, their hands trembling as they gathered herbs. Something about them felt... off.",
+                "speaker": "",
+                "next": "maya_intro"
+            }
+        ],
+        "maya_intro": [
+            {
+                "text": "An elderly woman crouched among the plants, her mask barely covering her face. Her fingers moved deftly, but there was a tremor in her movements.",
+                "speaker": "",
+                "next": "maya_dialogue"
+            },
+            {
+                "id": "maya_dialogue",
+                "text": "\"These herbs... they're the only thing keeping us safe,\" she muttered, more to herself than to anyone else. Her eyes locked onto mine. \"Outsider, would you help an old woman?\"",
+                "speaker": "Maya",
+                "choices": [
+                    {
+                        "text": "I'll help you gather herbs.",
+                        "next": "help_maya",
+                        "trust_change": 1
+                    },
+                    {
+                        "text": "Why do you trust these herbs so much?",
+                        "next": "question_maya",
+                        "trust_change": -1
+                    }
+                ]
+            }
+        ],
+        "help_maya": [
+            {
+                "text": "Her shoulders sagged in relief. \"Bless you, dear. The doctor will be pleased. He says these herbs ward off the Divoc curse... but there’s always more to gather.\"",
+                "speaker": "Maya",
+                "next": "hide_test"
+            }
+        ],
+        "question_maya": [
+            {
+                "text": "\"The doctor says these herbs are sacred,\" she replied, her voice faltering. \"They protect us from the curse... don't they?\"",
+                "speaker": "Maya",
+                "next": "question_maya_2"
+            },
+            {
+                "id": "question_maya_2",
+                "text": "Her eyes darted nervously, as if she wasn't entirely convinced herself.",
+                "speaker": "",
+                "next": "hide_test"
+            }
+        ],
+        "hide_test": [
+            {
+                "text": "Suddenly, voices echoed through the forest. \"Patrol's coming!\" Maya hissed. \"They'll think we're stealing!\"",
+                "speaker": "",
+                "choices": [
+                    {
+                        "text": "Quick, hide behind the trees!",
+                        "next": "pass_test",
+                        "trust_change": 1
+                    },
+                    {
+                        "text": "No need to hide. Let's explain ourselves.",
+                        "next": "fail_test",
+                        "trust_change": -1
+                    }
+                ]
+            }
+        ],
+        "pass_test": [
+            {
+                "text": "You ducked behind a tree just in time. The patrol passed, their eyes scanning the area. Maya exhaled, trembling. \"You're smarter than most outsiders.\"",
+                "speaker": "Maya",
+                "next": "education_moment1"
+            }
+        ],
+        "education_moment1": [
+            {
+                "text": "\"You know, these cloth masks...\" Maya touched her mask hesitantly. \"My grandson, before he left, told me proper masks need multiple layers and should fit tightly.\"",
+                "speaker": "Maya",
+                "next": "education_moment2"
+            },
+            {
+                "text": "\"He also mentioned something about droplets being the main way the illness spreads. Not curses at all...\"",
+                "speaker": "Maya",
+                "next": "education_moment3"
+            },
+            {
+                "text": "\"And these 'ritual spaces'? Six feet apart, he called it. Said it's about keeping a safe distance, not mystical protection.\"",
+                "speaker": "Maya",
+                "next": "education_moment4"
+            },
+            {
+                "text": "\"Some villagers got better after taking real medicine, not herbs. But the doctor...\" She glanced around nervously. \"He calls it blasphemy.\"",
+                "speaker": "Maya",
+                "next": "education_moment5"
+            },
+            {
+                "text": "\"I've heard stories of other villages, where they follow science instead of rituals. Their people stay healthier...\" She trailed off, lost in thought.",
+                "speaker": "Maya",
+                "next": "village_invite"
+            }
+        ],
+        "fail_test": [
+            {
+                "text": "The patrol glared at you. \"Unauthorized herb gathering is forbidden! Leave now, or face the consequences!\" Maya shook her head in disappointment.",
+                "speaker": "",
+                "next": "game_over"
+            }
+        ],
+        "village_invite": [
+            {
+                "text": "\"The village will need these herbs for tonight's protection ritual,\" Maya said. \"Will you come with me? The doctor mustn't see you as a threat.\"",
+                "speaker": "Maya",
+                "choices": [
+                    {
+                        "text": "I’ll come with you.",
+                        "next": "quiz_intro",
+                        "trust_change": 1
+                    },
+                    {
+                        "text": "This seems too dangerous.",
+                        "next": "game_over",
+                        "trust_change": -2
+                    }
+                ]
+            }
+        ],
+        "quiz_intro": [
+            {
+                "text": "Maya stops and looks at you intently. \"Before we go, I need to know you’re prepared. Only those who understand our ways can enter the village safely.\"",
+                "speaker": "Maya",
+                "next": "quiz_start"
+            }
+        ],
+        "quiz_start": [
+            {
+                "text": "\"Answer these questions correctly, and I’ll trust you to come with me,\" Maya says.",
+                "speaker": "Maya",
+                "next": "quiz_question_1"
+            }
+        ],
+        "quiz_pass": [
+            {
+                "text": "\"You’ve proven yourself knowledgeable and trustworthy,\" Maya says with a smile. \"Follow me to the village.\"",
+                "speaker": "Maya",
+                "next": "enter_village"
+            }
+        ],
+        "quiz_fail": [
+            {
+                "text": "Maya shakes her head. \"I’m sorry, but I can’t take you to the village if you don’t understand the importance of our ways.\"",
+                "speaker": "Maya",
+                "next": "game_over"
+            }
+        ],
+        "enter_village": [
+            {
+                "text": "The village loomed ahead, shrouded in mist. The streets were empty, except for a few masked figures hurrying between homes. Their eyes avoided yours.",
+                "speaker": "",
+                "next": "village_rules"
+            },
+            {
+                "id": "village_rules",
+                "text": "\"Stay close,\" Maya whispered. \"The rules are simple: keep your mask on, don’t speak unless spoken to, and never question the doctor.\"",
+                "speaker": "Maya",
+                "next": "meet_doctor"
+            }
+        ],
+        "meet_doctor": [
+            {
+                "text": "In the village center, the doctor stands tall, cloaked in dark robes embroidered with glowing symbols. His eyes pierce through a sleek, black mask.",
+                "speaker": "",
+                "next": "doctor_intro"
+            }
+        ],
+        "doctor_intro": [
+            {
+                "text": "\"You must be the outsider,\" the doctor says, his voice calm but heavy with authority. \"Why have you come to my village?\"",
+                "speaker": "Doctor",
+                "choices": [
+                    {
+                        "text": "I'm here to help the villagers.",
+                        "next": "help_villagers",
+                        "trust_change": 1
+                    },
+                    {
+                        "text": "I don't trust your methods.",
+                        "next": "question_doctor",
+                        "trust_change": -1
+                    }
+                ]
+            }
+        ],
+        "help_villagers": [
+            {
+                "text": "\"Help? You mean to question my work?\" The doctor eyes you suspiciously but gestures for you to follow.",
+                "speaker": "Doctor",
+                "next": "doctor_laboratory"
+            }
+        ],
+        "question_doctor": [
+            {
+                "text": "\"Distrust is dangerous here,\" the doctor says sharply. \"But I admire your boldness. Let’s see if you truly understand the stakes.\"",
+                "speaker": "Doctor",
+                "next": "doctor_laboratory"
+            }
+        ],
+        "doctor_laboratory": [
+            {
+                "text": "The doctor leads you into his laboratory. Strange vials bubble on ancient burners. Charts line the walls, detailing herbs, their properties, and an ominous 'Divoc Index.'",
+                "speaker": "",
+                "next": "doctor_laboratory_choices"
+            }
+        ],
+        "doctor_laboratory_choices": [
+            {
+                "text": "\"These herbs are crucial,\" he explains. \"They shield us from the curse. But there’s always... room for improvement.\"",
+                "speaker": "Doctor",
+                "choices": [
+                    {
+                        "text": "What’s the ‘Divoc Index?’",
+                        "next": "divoc_index",
+                        "trust_change": 1
+                    },
+                    {
+                        "text": "Are you sure these herbs work?",
+                        "next": "herb_doubt",
+                        "trust_change": -1
+                    },
+                    {
+                        "text": "How can I help?",
+                        "next": "offer_help",
+                        "trust_change": 1
+                    }
+                ]
+            }
+        ],
+        "divoc_index": [
+            {
+                "text": "\"Ah, the Divoc Index,\" the doctor begins, pointing to a complex graph. \"It measures the spread of the curse, calculated by herb potency and village compliance.\"",
+                "speaker": "Doctor",
+                "next": "index_choice"
+            },
+            {
+                "id": "index_choice",
+                "text": "The data is incomplete, but you notice discrepancies. Will you mention it?",
+                "choices": [
+                    {
+                        "text": "Point out the inconsistencies.",
+                        "next": "index_confrontation",
+                        "trust_change": -1
+                    },
+                    {
+                        "text": "Stay silent.",
+                        "next": "laboratory_continue",
+                        "trust_change": 1
+                    }
+                ]
+            }
+        ],
+        "index_confrontation": [
+            {
+                "text": "The doctor’s eyes narrow. \"You dare question my data? Perhaps you don’t understand the complexities of protection rituals.\"",
+                "speaker": "Doctor",
+                "next": "trust_warning"
+            }
+        ],
+        "herb_doubt": [
+            {
+                "text": "\"Doubt erodes unity,\" the doctor says coldly. \"You must choose: believe in our methods or leave.\"",
+                "speaker": "Doctor",
+                "next": "trust_warning"
+            }
+        ],
+        "trust_warning": [
+            {
+                "text": "\"Trust is everything here,\" Maya whispers, pulling you aside. \"Lose it, and you might not leave this village alive.\"",
+                "speaker": "",
+                "next": "laboratory_continue"
+            }
+        ],
+        "offer_help": [
+            {
+                "text": "The doctor smiles faintly. \"A willing assistant? Perhaps there’s hope for you yet. I’ll test your loyalty.\"",
+                "speaker": "Doctor",
+                "next": "test_loyalty"
+            }
+        ],
+        "test_loyalty": [
+            {
+                "text": "\"Take this vial to the forest. Spread its contents around the perimeter. It’s an experiment to fortify our defenses.\"",
+                "speaker": "Doctor",
+                "choices": [
+                    {
+                        "text": "Agree to help.",
+                        "next": "agree_test",
+                        "trust_change": 1
+                    },
+                    {
+                        "text": "Refuse. It sounds suspicious.",
+                        "next": "refuse_test",
+                        "trust_change": -1
+                    }
+                ]
+            }
+        ],
+        "agree_test": [
+            {
+                "text": "\"Good. Report back to me when it’s done,\" the doctor says. Maya’s expression is unreadable as you leave.",
+                "speaker": "",
+                "next": "laboratory_continue"
+            }
+        ],
+        "refuse_test": [
+            {
+                "text": "The doctor frowns. \"Then you have no place here. Leave the village at once.\"",
+                "speaker": "Doctor",
+                "next": "game_over"
+            }
+        ],
+        "laboratory_continue": [
+            {
+                "text": "The doctor gestures to a set of herbs on the table. \"There’s much to learn if you’re willing.\"",
+                "speaker": "Doctor",
+                "next": "learn_from_doctor"
+            }
+        ],
+        "learn_from_doctor": [
+            {
+                "text": "You spend the evening listening to the doctor’s theories. His knowledge is vast, but his methods raise questions. Maya’s warnings echo in your mind.",
+                "speaker": "",
+                "next": "show_covid_quiz"
+            }
+        ]
+    }
+}
