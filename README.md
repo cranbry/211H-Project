@@ -11,12 +11,11 @@ System Requirements
 
 Windows 10 or later
 4GB RAM recommended
-500MB free disk space
+100MB free disk space
 Graphics card supporting OpenGL 2.0 or later
 
 How to Play
 
-Use arrow keys to move your character
 Click dialogue options to make choices
 Answer quiz questions to progress through the story
 Interact with characters to uncover the truth
@@ -39,6 +38,6 @@ The Unveiled Team
 
 Support & Bug Reports
 If you encounter any issues or have suggestions, please contact:
-[Your preferred contact method - email/website/etc]
+mouadoune430@gmail.com
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
