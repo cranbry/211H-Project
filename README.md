@@ -31,10 +31,7 @@ Current Version: 1.0
 Release Date: December 2024
 Credits
 Created by Mouad Oulouali
-Special thanks to:
 
-Anthropic
-The Unveiled Team
 
 Support & Bug Reports
 If you encounter any issues or have suggestions, please contact:
